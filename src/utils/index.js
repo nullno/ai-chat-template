@@ -1,12 +1,3 @@
-/*
- * @Author: your name
- * @Date: 2021-07-16 16:01:55
- * @LastEditTime: 2021-08-09 15:06:38
- * @LastEditors: Please set LastEditors
- * @Description: 常用工具类函数
- * @FilePath: \ai-chat\src\utils\index.js
- */
-
 export const screen = {
   width: function() {
     return (

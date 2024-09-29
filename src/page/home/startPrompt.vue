@@ -143,7 +143,7 @@ export default {
     margin-right: 20px;
     width: 72px;
     height: 72px;
-    background: url(./assets/icon-ai.png) no-repeat;
+    background: url(./assets/avatar-ai.png) no-repeat;
     background-size: 100% 100%;
   }
 }

@@ -1,11 +1,3 @@
-/*
- * @Author: your name
- * @Date: 2021-07-12 16:12:22
- * @LastEditTime: 2021-08-18 13:45:39
- * @LastEditors: Please set LastEditors
- * @Description: 路由实例
- * @FilePath: \ai-chat\src\router\index.js
- */
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import routes from './routes';
@@ -48,7 +40,7 @@ router.beforeEach((to, from, next) => {
     }
     const query = qs.parse(enterParam.replace('?', ''));
 
-    sessionStorage.userInfo = JSON.stringify(query);
+    // sessionStorage.userInfo = JSON.stringify(query);
     // next(to.path);
     // 防止二次进入缓存
     // location.href = location.origin + location.pathname;

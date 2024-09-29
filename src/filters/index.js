@@ -1,11 +1,3 @@
-/*
- * @Author: your name
- * @Date: 2021-07-28 11:09:12
- * @LastEditTime: 2021-07-28 11:14:54
- * @LastEditors: Please set LastEditors
- * @Description: 过滤器
- * @FilePath: \ai-chat\src\filters\index.js
- */
 import Vue from 'vue';
 
 const Filters = {
