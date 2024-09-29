@@ -1,0 +1,9 @@
+/build/
+/config/
+/dist/
+/PRO_DIST/
+/PRE_DIST/
+/BETA_DIST/
+/*.js
+/src/components/*/*.js
+/src/utils/userCenter.js
