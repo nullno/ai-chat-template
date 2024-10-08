@@ -1,5 +1,4 @@
 <template>
-  <!-- user-item -->
   <div
     class="chat-item"
     :class="{ 'ai-item': item.role == 1, 'user-item': item.role == 2 }"
@@ -58,7 +57,6 @@
 </template>
 <script>
 import useMarkdown from '@/utils/useMarkdown';
-import qs from 'qs';
 export default {
   props: {
     item: {
@@ -76,8 +74,6 @@ export default {
   watch: {
     'item.content'() {
       this.renderContent();
-      // const pos = this.getLastTextNodeCoordinates(this.$refs.markdownContent);
-      // console.log(pos);
     }
   },
   computed: {

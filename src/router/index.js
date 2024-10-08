@@ -27,7 +27,6 @@ const router = new VueRouter({
 
 // 全局前置守卫
 router.beforeEach((to, from, next) => {
-  // 从载入链接处获取用户信息 !sessionStorage.userInfo
   if (
     location.href.indexOf('personId=') != -1 &&
     location.href.indexOf('usessionId=') != -1

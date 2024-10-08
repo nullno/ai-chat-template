@@ -1,11 +1,3 @@
-<!--
- * @Author: your name
- * @Date: 2021-07-26 11:38:43
- * @LastEditTime: 2021-08-08 22:23:04
- * @LastEditors: Please set LastEditors
- * @Description: 加载提示
- * @FilePath: \ai-chat\src\components\PanelLoading\index.vue
--->
 <template>
   <div class="panel-loading-mask" v-if="$store.state.loading.show">
     <div class="panel-loading">

@@ -1,11 +1,3 @@
-<!--
- * @Author: your name
- * @Date: 2021-08-18 19:36:30
- * @LastEditTime: 2021-09-02 15:54:06
- * @LastEditors: your name
- * @Description: In User Settings Edit
- * @FilePath: \ty-approve-spa\src\components\PanelScrollTop\index.vue
--->
 <template>
   <div id="goTop">
     <div class="btn-top" v-show="goTopShow" @click="goTop"></div>

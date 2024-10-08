@@ -1,11 +1,3 @@
-/*
- * @Author: your name
- * @Date: 2021-07-15 14:53:41
- * @LastEditTime: 2021-07-29 10:37:56
- * @LastEditors: Please set LastEditors
- * @Description: 挂载弹窗类组件
- * @FilePath: \ai-chat\src\components\popups\index.js
- */
 import Vue from 'vue';
 import MsgAlert from './MsgAlert.vue';
 import Toast from './Toast.vue';

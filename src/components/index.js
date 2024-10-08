@@ -1,11 +1,3 @@
-/*
- * @Author: your name
- * @Date: 2021-07-12 08:55:23
- * @LastEditTime: 2021-07-28 09:25:19
- * @LastEditors: Please set LastEditors
- * @Description: 导入组件
- * @FilePath: \ai-chat\src\components\index.js
- */
 import Vue from 'vue';
 import './tooltip/tooltip.css';
 import './switch/switch.css';

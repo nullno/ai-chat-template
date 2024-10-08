@@ -54,6 +54,6 @@
   ],
   "description": "ai chat template",
   "main": "babel.config.js",
-  "author": "wjd",
+  "author": "nullno",
   "license": "ISC"
 }

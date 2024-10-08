@@ -1,8 +1,3 @@
-/*
- * @Description: eslint 规则配置
- * @Author: luozhao
- * @Date: 2021-01-28 16:57:07
- */
 module.exports = {
   root: true,
   env: {
@@ -14,7 +9,6 @@ module.exports = {
     parser: 'babel-eslint'
   },
   rules: {
-    // 'no-console': process.env.NODE_ENV === 'development' ? 'off' : 'warn',
     'no-debugger': process.env.NODE_ENV === 'development' ? 'off' : 'warn',
     // 允许 子域有父领 同名变量名
     'no-shadow': 'off',
